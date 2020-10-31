@@ -1,0 +1,38 @@
+&nbsp = Dá espaço entre as tags;
+
+hgroup = Está obsoleto. Era usado para agrupar títulos;
+
+<wbr/> = Quebra da palavra quando a página não suportar seu tamanho inteiro (Mas sem o hífen);
+
+<pre></pre> = Mostra a escrita das tags e elementos da forma como está editada visualmente;
+
+"Alt + z" = Diminui a largura das linhas para caber na página (No VS Code);
+
+rgba = Acrescenta transparência ao rgb (Alpha). Ex: rgba(0, 0, 0, 1) - O Alpha é o último elemento.
+
+* Para mudar as cores dos elementos também há o hsl e hsla (hsl com transparência)
+
+<figure></figure> = Bloco para inserir imagens (img);
+
+<figcaption></figcaption> = Bloco para inserir legendas à imagem (img);
+
+<ol></ol> = Ordered lists -> Há tipos (type) Ex: a, 1, A, i, I, etc. Os tipos de lista podem começar 
+por qualquer elemento, utilizando-se de "start". Ex: start="5" -> começa pelo elemento 5. 
+
+<ul></ul> = Unordered lists -> Há tipos (type) Ex: disc, square, etc.
+
+<a></a> = Link para outros sites. É necessário colocar o link entre href="" depois da tag. 
+Para abrir uma nova aba -> target="_blank"
+
+Obs: Procurar por "Google Fonts"
+
+@font-face = Para inserir uma fonte não padrão do css. 
+Ex: @font-face {
+    font-family: FonteLogo;
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+rowspan = Faz com que mais de uma linha da tabela seja ocupada;
+
+colspan = Faz com que mais de uma coluna da tabela seja ocupada;
+
